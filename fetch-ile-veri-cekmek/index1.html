@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Veri Çekmek</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Melek Ok Aydın">
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <!-- fetch ile butona tıklama olayı ile tetiklenmesiyle tabloya veri çekme yöntemi -->
+            <button class="btn_data">Tüm Veriyi Çek</button>
+            <table class="datatable">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Başlık</td>
+                        <td>Açıklama</td>
+                    </tr>
+                </thead>
+                <tbody class="alldata"></tbody>
+            </table>
+        </div>
+        <div class="item">
+            <!-- fetch ile fonksiyon oluşturarak veri çekme yöntemi -->
+            <button onclick="fetchdata()">Tüm Veriyi Çek</button>
+            <table class="datatable">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Başlık</td>
+                        <td>Açıklama</td>
+                    </tr>
+                </thead>
+                <tbody class="alldata2"></tbody>
+            </table>
+        </div>
+    </div>
+        <script src="script1.js"></script>
+</body>
+</html>
+

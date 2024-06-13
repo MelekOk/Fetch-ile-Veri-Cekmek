@@ -1,0 +1,38 @@
+﻿body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width:50%;
+}
+.item {
+    background-color:darkgray;
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding:5px;
+}
+.btn_data{
+    text-align:center
+}
+.datatable {
+    width: 100%;
+    margin-top: 10px;
+    border-spacing: 0px;
+}
+.alldata{
+
+}
+.alldata2{
+
+}
+.datatable thead tr td,
+.datatable tbody tr td {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
